@@ -74,14 +74,9 @@ Clone this repository to your desired folder and install required dependencies:
 ```sh
   cd my-folder
   git clone git@github.com:myaccount/my-project.git
-
-  npm init -y
-  npm install webpack webpack-cli --save-dev
-  npm install --save-dev html-webpack-plugin
-  npm install --save-dev html-loader 
-
-  npm install --save-dev style-loader css-loader
-  npm install --save-dev webpack-dev-server
+  bundle install
+  npm install
+  npm run build
 ```
 
 ### Usage
@@ -89,8 +84,9 @@ Clone this repository to your desired folder and install required dependencies:
 To run the project, execute the following command:
 
 ```sh
-  bundle install
-  npm ru build
+  rails db:create
+  rails db:migrate
+  rails db:seed
   rails s
 ```
 
