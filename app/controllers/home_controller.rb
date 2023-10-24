@@ -1,6 +1,5 @@
 class HomeController < ApplicationController
-  def index
-  end
+  def index; end
 
   def random_greeting
     random_message = Message.order('RANDOM()').first
