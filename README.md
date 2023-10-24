@@ -10,14 +10,11 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    -[Live Version](#live-version)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -57,9 +54,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Live Version <a name="live-version"></a>
-
-N/A
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -95,19 +89,10 @@ Clone this repository to your desired folder and install required dependencies:
 To run the project, execute the following command:
 
 ```sh
-  npm run build
-  npm start
+  bundle install
+  npm ru build
+  rails s
 ```
-
-### Run tests
-
-To run tests, run the following command:
-
-> Comming soon.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
