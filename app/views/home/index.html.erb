@@ -1,0 +1,22 @@
+<h1>Home#index</h1>
+<p>Random Greetings</p>
+
+<div id="root">
+  <p id="greeting-message"></p>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const greetingMessageElement = document.getElementById('greeting-message');
+
+  // Make an AJAX request to the '/random_greeting' endpoint
+  fetch('/random_greeting')
+    .then(response => response.json())
+    .then(data => {
+      greetingMessageElement.textContent = data.greeting;
+    })
+    .catch(error => {
+      console.error('Error fetching random greeting:', error);
+    });
+});
+</script>
